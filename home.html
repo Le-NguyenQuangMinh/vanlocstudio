@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoo Game Studio</title>
+    <meta name="description" content="Emoo Game Studio - We share EMOOtion through games">
+    <meta name="keywords" content="Emoo Game Studio, game development, mobile games, casual, Lowpoly puzzle">
+    <meta name="author" content="Emoo Game Studio">
+    <meta name="language" content="en">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/">
+                    <img src="img/logo.png" alt="Emoo Game Studio Logo" class="logo-img">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <!-- <li><a href="#about">About</a></li> -->
+                <li><a href="#games" class="active">Games</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu">
+                ☰
+            </button>
+        </nav>
+        
+        <!-- Mobile Navigation Overlay -->
+        <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+        
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-nav-menu" id="mobileNavMenu">
+            <div class="mobile-nav-header">
+                <div class="logo">
+                    <a href="/">
+                        <img src="img/logo.png" alt="Emoo Game Studio Logo" class="logo-img">
+                        <h1>Emoo Game Studio</h1>
+                    </a>
+                </div>
+                <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="Close mobile menu">
+                    ✕
+                </button>
+            </div>
+            <ul class="mobile-nav-links">
+                <<li><a href="home.html">Home</a></li>
+                <!-- <li><a href="#about">About</a></li> -->
+                <li><a href="#games" class="active">Games</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="img/Hero.png" alt="Emoo Game Studio Logo" class="logo-img">
+                <h2>Emoo Games is an independent studio focused on modern casual games. With a unique art style and creative mechanics, Emoo delivers challenging and engaging experiences that highlight skill, resilience, and fair competition.</h2>
+                <a href="#games" class="cta-button">Explore Our Games</a>
+            </div>
+        </section>
+
+
+        <section id="games" class="games">
+            <div class="container">
+                <h2>Our Games</h2>
+                <div class="games-grid">
+                    <div class="game-card featured">
+                        <img src="img/Battlepack quest.png" class="game-bg-image">
+                        <div class="game-content">
+                            <h3>Battlepack Quest</h3>
+                        </div>
+                    </div>
+                    <div class="game-card featured">
+                        <img src="img/angryblock.png" class="game-bg-image">
+                        <div class="game-content">
+                            <h3>Angry Block - Push puzzle</h3>
+                        </div>
+                    </div>
+                    <div class="game-card featured">
+                        <img src="img/jelly.png" class="game-bg-image">
+                        <div class="game-content">
+                            <h3>Jelly Block Jam</h3>
+                        </div>
+                    </div>
+                    <div class="game-card featured">
+                        <img src="img/lucky.png" class="game-bg-image">
+                        <div class="game-content">
+                            <h3>Lucky Frontier</h3>
+                        </div>
+                    </div>
+                    <div class="game-card featured">
+                        <img src="img/lowpoly.png" class="game-bg-image">
+                        <div class="game-content">
+                            <h3>Lowpoly puzzle</h3>
+                        </div>
+                    </div>
+                    <div class="game-card featured">
+                        <img src="img/EternalHorde.png" class="game-bg-image">
+                        <div class="game-content">
+                            <h3>Eternal Horde</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="about" class="games">
+            <div class="container">
+                <h2>About us</h2>
+                <div class="games-grid">
+                    <div class="game-card">
+                        <h3>💡 The Spark</h3>
+                        <p>It all started with rage-quitting another mobile game filled with predatory paywalls. I threw my phone down and thought, "I could make something better." That frustration became the fuel for Emoo Game Studio - a place where games respect players, not exploit them.</p>
+                    </div>
+                    <div class="game-card">
+                        <h3>🎯 The Mission</h3>
+                        <p>We're not just making games; we're proving a point. Mobile games don't have to be mindless cash grabs. They can have depth, strategy, and soul. Every line of code we write is a middle finger to the industry's worst practices and a love letter to players who deserve better.</p>
+                    </div>
+                    <div class="game-card">
+                        <h3>🚀 The Dream</h3>
+                        <p>From my cramped apartment to the gaming industry's main stage - that's the journey. Steel Canvas started as one person with a laptop and an unhealthy coffee addiction. The goal? Build games so good that players forget mobile gaming was ever broken in the first place.</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>Emoo Game Studio is a division of VAN LOC TRADING COMPANY LIMITED</p>
+                <p>2nd Floor, 176 Cau Giay, Quan Hoa, Cau Giay, Hanoi, Vietnam</p>
+                <p>&copy; 2025 VAN LOC TRADING COMPANY LIMITED. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
